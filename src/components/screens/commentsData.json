@@ -1,0 +1,71 @@
+{
+  "post": [
+    {
+      "links": null,
+      "id": 1,
+      "message": "test",
+      "userId": 1,
+      "groupId": 1,
+      "isAnonymous": false,
+      "archived": false,
+      "createdAt": "2024-05-30T00:42:13.000Z",
+      "updatedAt": "2024-05-30T00:42:13.000Z",
+      "comments": [
+        {
+          "id": 1,
+          "message": "level 1",
+          "postId": 1,
+          "userId": 1,
+          "parentCommentId": null,
+          "level": 1,
+          "isAnonymous": false,
+          "archived": false,
+          "createdAt": "2024-05-30T00:42:13.000Z",
+          "updatedAt": "2024-05-30T00:42:13.000Z",
+          "comments": [
+            {
+              "id": 2,
+              "message": "level 2",
+              "postId": 1,
+              "userId": 1,
+              "parentCommentId": 1,
+              "level": 2,
+              "isAnonymous": false,
+              "archived": false,
+              "createdAt": "2024-05-30T00:42:13.000Z",
+              "updatedAt": "2024-05-30T00:42:13.000Z",
+              "comments": []
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "message": "another level 1",
+          "postId": 1,
+          "userId": 1,
+          "parentCommentId": null,
+          "level": 1,
+          "isAnonymous": false,
+          "archived": false,
+          "createdAt": "2024-05-30T00:42:13.000Z",
+          "updatedAt": "2024-05-30T00:42:13.000Z",
+          "comments": [
+            {
+              "id": 5,
+              "message": "another level 2",
+              "postId": 1,
+              "userId": 1,
+              "parentCommentId": 4,
+              "level": 2,
+              "isAnonymous": false,
+              "archived": false,
+              "createdAt": "2024-05-30T00:42:13.000Z",
+              "updatedAt": "2024-05-30T00:42:13.000Z",
+              "comments": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
